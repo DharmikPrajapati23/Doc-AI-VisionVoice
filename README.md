@@ -7,6 +7,11 @@
 This project demonstrates the powerful integration of multimodal AI capabilities (**text + image input**, **text + audio output**) for a practical application.
 
 ---
+## Working Project
+
+https://github.com/user-attachments/assets/dc1af2ae-8177-486c-8e6d-d4d01c4c91fc
+
+---
 
 ## ✨ Features
 
