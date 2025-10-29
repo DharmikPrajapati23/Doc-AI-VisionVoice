@@ -29,10 +29,40 @@ https://github.com/user-attachments/assets/dc1af2ae-8177-486c-8e6d-d4d01c4c91fc
 - **Gradio** – Interactive Web UI
 - **Groq API** – High-speed inference with meta-llama/llama-4-maverick-17b-128e-instruct
 - **ElevenLabs API** – Converts text responses into voice
-- **python-dotenv** – For managing API keys securely
-- **uuid** – Generates unique filenames for audio files
 
 ---
+
+
+## 🧠 Model Details
+
+This project uses the **Llama 4 Maverick (Meta)**—a cutting-edge multimodal model designed for state-of-the-art understanding of both text and images. Llama 4 Maverick allows the AI Doctor to interpret patient questions along with uploaded images, enabling deeper, context-aware medical responses. This model was selected after comparing current multimodal solutions for healthcare and AI chatbot tasks.
+
+---
+
+### 🤖 Why Llama 4 Maverick?
+
+- **Multimodal Capability:** Processes both text and image inputs together for rich, contextually relevant answers.
+- **Performance:** Consistently outperforms most open-source models in handling medical Q&A and image-based reasoning.
+- **Scalability:** Large context window (up to 1,000,000 tokens) for understanding complex medical cases.
+- **Integration:** Fully supported with APIs (Groq, HuggingFace) and easy to connect via Gradio.
+- **Open Source:** Cost-effective and supports academic/production use.
+
+---
+
+### 🏆 Model Comparison
+
+| Feature                      | Llama 4 Maverick (Meta)      | GLM-4.5V (Zhipu AI)         | Medical VLM-24B (John Snow Labs)  |
+|------------------------------|------------------------------|-----------------------------|-----------------------------------|
+| Multimodal (Text + Image)    | Yes                          | Yes                         | Yes                               |
+| Context Window               | 1,000,000 tokens             | 131,072 tokens              | 65,000 tokens                     |
+| Medical Specialization       | General + Reasoning          | Imaging + Diagnostics       | Clinical Report Generation        |
+| Performance                  | Excellent (General, VQA, QA) | Strong (Imaging tasks)      | Best for Radiology/Clinical Tasks |
+| Inference Speed/Scalability  | Very High                    | Moderate                    | High                              |
+| Open Source                  | Yes                          | Yes                         | Yes                               |
+| Cost Efficiency              | High                         | Moderate                    | Moderate                          |
+
+*Llama 4 Maverick was chosen because it balances vision-language power, speed, easy integration, and cost, making it ideal for quickly building robust, scalable health-AI applications.*
+
 
 ## ⚙️ Setup and Installation
 
